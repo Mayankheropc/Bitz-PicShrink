@@ -16,3 +16,12 @@ Step 3: After pressing the RESIZE button a success message will be shown and aft
 you can get the resized image in the folder named "Bitz-PicShrink"
 
 ![image](https://user-images.githubusercontent.com/67374046/163781653-b750ab17-63b3-4dfd-9f15-ec3e5ab19720.png)
+
+For More details use the menu-bar or reach the site mentioned above.
+
+You can support us by donating or by providing feadbacks, by pointing out any bugs or glitches, your suggestions which you want to see in the upcommig updates.
+
+for donating press the donate button from the menu bar
+
+![image](https://user-images.githubusercontent.com/67374046/163783323-bd862ed2-63cb-4150-9e88-4ee10d8430cc.png)
+"Your Donation will help me make this product better"
