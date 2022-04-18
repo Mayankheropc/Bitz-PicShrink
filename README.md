@@ -24,4 +24,5 @@ You can support us by donating or by providing feadbacks, by pointing out any bu
 for donating press the donate button from the menu bar
 
 ![image](https://user-images.githubusercontent.com/67374046/163783323-bd862ed2-63cb-4150-9e88-4ee10d8430cc.png)
+
 "Your Donation will help me make this product better"
