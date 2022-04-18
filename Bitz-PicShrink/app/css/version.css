@@ -1,0 +1,107 @@
+/* CSS reset */
+*, *::after, *::before {
+    -webkit-user-select: none;
+    user-select: none;
+	-webkit-user-drag: none;
+	-webkit-app-region: no-drag;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    /* background-color: rgb(241, 236, 241); */
+    background-color: #DDEBEC;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 28px;
+    height: 28px;
+    margin: 3px 5px;
+    padding: 2px;
+    align-content: center;
+}
+
+.software-name {
+    text-align: center;
+    color: rgb(32 175 116);
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 1rem;
+}
+
+
+.center-align {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+/* for donatePayPal.html and version.html */
+.output{
+    width: 98%;
+    height: 100%;
+    background-color: #70bfb4;
+    border-radius: 7px;    
+    border: 2px solid goldenrod;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 5%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    text-align: center;
+    justify-items: center;
+    font-size: 1rem;
+    padding: 5px;
+    font-family: 'Baloo Tamma 2';
+    display: flex;
+}
+
+/* for donateUPI.html */
+.output2{
+    width: 98%;
+    height: 100%;
+    border-radius: 7px;    
+    background-color: #e6eced;
+    border: 2px solid goldenrod;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 5%), 0 10px 50px 0 rgb(0 0 0 / 35%);
+    text-align: center;
+    justify-items: center;
+    font-size: 1rem;
+    padding: 5px;
+    font-family: 'Baloo Tamma 2';
+    display: flex;
+    flex-direction: column;
+}
+
+/* for donatePayPal.html and version.html */
+.card-content{
+    margin: auto;
+    font-weight: bold;
+}
+
+/* for donateUPI.html */
+.card-content2{
+    margin: auto;
+    margin-top: -15px;
+    font-weight: bold;
+}
+
+.req-text{
+    margin: 15px;
+    font-family: 'Baloo Tamma 2';
+    font-size: 0.9rem;
+}
+
+.upi-img{
+    width: 220px;
+    height: 220px;
+    margin: auto;
+    padding: 2px;
+    align-content: center;
+}

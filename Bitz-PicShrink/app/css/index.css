@@ -1,0 +1,225 @@
+/* CSS RESET for contact.html */
+*, *::after, *::before {
+    -webkit-user-select: none;
+    user-select: none;
+	-webkit-user-drag: none;
+	-webkit-app-region: no-drag;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    /* background-color: rgb(241, 236, 241); */
+    background-color: #DDEBEC;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 3px 5px;
+    /* padding: 2px; */
+    align-content: center;
+}
+
+.software-name {
+    text-align: center;
+    color: rgb(32 175 116);
+    font-weight: bold;
+    padding: 2px 2px 0px 2px;
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 1.6rem;
+}
+
+
+.center-align {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+p {
+    color: rgb(48, 40, 48);
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Baloo Tamma 2';
+}
+
+.box {
+    border: 2px solid goldenrod;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 5%), 0 6px 20px 0 rgb(0 0 0 / 10%);
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    /* width: 270px; */
+    width: 86%;
+    height: 100%;
+}
+
+.choose-img-text{
+    font-size: 1rem;
+    font-style: italic;
+    color: #4d5151;
+    font-weight: bold;
+}
+
+.slider{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider p{
+    font-size: .9rem;
+    margin-bottom: 5px;
+}
+
+.slider-box{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#quality-slider{
+    width: 90%;
+    margin-right: 15px;
+    height: 10px;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+    border-radius: 25px;
+    background: linear-gradient(to right, #6b8dff 0%, #ff2a5f 50%, #fff 50%, #fff 100%);
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0.75);
+    -webkit-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0.75);
+    -moz-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0.75);
+}
+
+#quality-slider::-webkit-slider-thumb{
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: #c5bdf4;
+    border: 3px solid #7160cd;
+    /* border: 3px solid #00b28f; */
+    border-radius: 50%;
+    box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0.75);
+    -webkit-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0.75);
+    -moz-box-shadow: 2px 8px 13px -3px rgba(116, 114, 114, 0.75);
+}
+#quality-slider::-webkit-slider-thumb:hover{
+    background-color: #7160cd;
+    border: 3px solid #7160cd;
+}
+
+#slider-value{
+    margin: 0px;
+    font-weight: bold;
+    width: 30px;
+    font-size: 1.2rem;
+    /* color: #3498db; */
+    color: #7160cd;
+}
+
+#custom-button {
+    padding: 2px 8px;
+    border: 0px;
+    background-color: #2BBBAD;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#custom-button p{
+    font-weight: bold;
+    padding: 5px;
+    color: rgb(249 249 249);
+    font-size: 1rem;
+}
+
+#custom-button:hover {
+    background-color: #00b28f;
+    box-shadow: 0 4px 8px 0 rgb(0 243 211 / 20%), 0 6px 20px 0 rgb(0 255 99 / 15%);
+}
+
+#custom-text {
+    color: rgb(22, 61, 53);
+    text-align: center;
+    font-size: 1rem;
+    padding: 0px;
+}
+
+#resize-button {
+    padding: 2px 8px;
+    border: 2px solid #4d5151;
+    background-color: rgb(15, 15, 15);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 99%;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 20%);
+    
+}
+
+#resize-button:hover {
+    background-color: #501a1a;
+}
+
+#resize-button:disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#resize-button p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1rem;
+    padding: 2px;
+    font-family: 'Baloo Tamma 2';
+}
+
+.output{
+    width: 98%;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 5%), 0 6px 20px 0 rgb(0 0 0 / 25%);
+    text-align: center;
+    justify-items: center;
+    font-size: 1rem;
+    padding: 5px;
+    font-family: 'Baloo Tamma 2';
+    display: flex;
+    background-color: #e0e5e7;
+    border-radius: 5px;
+}
+
+.card-content{
+    margin: auto;
+}
+
+#success{
+    /* display: flex; */
+    /* float: right; */
+    height: 30px;
+}
+
+#success-text{
+    /* color: #DDEBEC; */
+    font-size: 1rem;
+    padding: 1px;
+}
