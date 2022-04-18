@@ -1,0 +1,21 @@
+{
+  "name": "bitz-pic-shrink",
+  "version": "1.0.0",
+  "description": "application to reduce image size.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Mayank Singh",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^18.0.2"
+  },
+  "dependencies": {
+    "electron-log": "^4.4.6",
+    "imagemin": "^7.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "slash": "^3.0.0"
+  }
+}
