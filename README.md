@@ -12,5 +12,6 @@ now you just have to adjust the slider to set a image quality "lower the quality
 ![image](https://user-images.githubusercontent.com/67374046/163780084-90abcf6d-69a6-45b2-aec8-fb08cb89490f.png)
 
 
-Step 3: After pressing the RESIZE button a success message will be shown and after the successful completion you can get the resized image in the folder named "Bitz-PicShrink"
+Step 3: After pressing the RESIZE button a success message will be shown and after the successful completion 
+you can get the resized image in the folder named "Bitz-PicShrink"
 ![image](https://user-images.githubusercontent.com/67374046/163781653-b750ab17-63b3-4dfd-9f15-ec3e5ab19720.png)
