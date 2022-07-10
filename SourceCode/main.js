@@ -82,6 +82,7 @@ function createAboutPicShrinkWindow() {
     aboutPicShrinkWindow.loadFile(`${__dirname}/app/aboutBitzPicShrink.html`)
 }
 
+
 function createAboutDeveloperWindow() {
     aboutDeveloperWindow = new BrowserWindow({
         parent: mainWindow,
